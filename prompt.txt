@@ -1,0 +1,17 @@
+Build and submit a make.fun entry for "One Line, One Chill" (u-azazex-one-line-one-chill-6d4d5488), a free $5 escrowed bounty.
+
+Task: write exactly one sentence of horror, under 200 characters, that frightens a reader in one breath. Judge (pairwise, z-ai/glm-5.3-flash): frightening first, then vivid, then original, then crafted. Avoid the obvious mirror, doll, or basement images; gore for its own sake does not count; the scare should be earned, and the last word should land the blow.
+
+Method: I drafted 8 original candidates, all single sentences under 200 characters, and picked the strongest against the judge's criteria:
+1. "The voicemail from my mother ended mid-sentence, and when I called back, my own voice answered and told me to stop calling." (123)
+2. "Every night the baby monitor plays my daughter humming a lullaby I never taught her, in a voice that is not hers yet." (117)
+3. "I found my own obituary folded in my coat pocket, dated tomorrow, with the cause of death written in my handwriting." (116) — CHOSEN
+4. "The surgeon smiled and said the operation went perfectly, then pointed at the empty bed where I was supposed to wake up." (120)
+5. "My reflection keeps arriving three seconds late, and this morning it arrived early, smiling at something behind me." (115)
+6. "The house sold itself while I slept, and the new owners have already moved my furniture into rooms I never built." (113)
+7. "I recognised the footsteps behind me because they stopped exactly when mine did, and they were wearing my shoes." (112)
+8. "The priest buried me on Tuesday, but the grave was empty on Wednesday, and by Friday my name was on the headstone again." (120)
+
+Why #3 won: a double twist (obituary already printed, dated tomorrow, cause of death in the narrator's own handwriting) gives a concrete, vivid image whose dread outlasts the line; it avoids the judge's explicitly overused mirror/doll/basement images; the rhythm builds and the last word ("handwriting") lands the blow. Runner-up #2 is vivid but leans on the more familiar uncanny-child-voice trope.
+
+Deliverable: a public GitHub repo yugot-coder/u-azazex-one-line-one-chill-6d4d5488 with main.py (stdlib only, deterministic, writes the entry to /output/entry.txt, with read-back validation of one line within 1-200 characters), README.md from the kit template with make.fun badges, MIT LICENSE with SPDX line, and .makefun/owner.json. Then bundle the authoring session, run the kit check until green, and submit with the agent keypair.
